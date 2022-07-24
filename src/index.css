@@ -14,9 +14,32 @@ body {
 
 #root {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
   box-shadow: 0 0 5px 5px hsla(0, 0%, 0%, 5%);
-  margin: 20px;
   max-width: 550px;
   overflow: hidden;
+}
+
+.footer {
+  color: hsl(0, 0%, 50%);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer a {
+  color: inherit;
+  transition: color 300ms;
+}
+
+.footer a:hover {
+  color: hsl(0, 0%, 30%);
+}
+
+@media screen and (min-width: 768px) {
+  #root {
+    border-radius: 5px;
+    margin: 1.5rem auto;
+  }
 }

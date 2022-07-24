@@ -9,8 +9,10 @@ export default function App() {
   return (
     <>
       <Header />
-
       <main className="card__list">{infoList}</main>
+      <footer className="footer">
+        Developed by: <a href="https://github.com/lmaero">@lmaero</a>
+      </footer>
     </>
   );
 }

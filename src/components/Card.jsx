@@ -9,7 +9,7 @@ export default function Card({ info }) {
       <div className="card__details">
         <div className="card__location">
           <img
-            className="location__image"
+            className="location__icon"
             src={location}
             alt="A pointer that indicates location on a map"
           />
